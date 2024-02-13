@@ -51,8 +51,7 @@ function useApiData(data) {
   answerButtons.forEach((button) => {
     button.addEventListener("click", () => {
       if (button.innerHTML === data_result.correct_answer) {
-        document.querySelector("#message").innerHTML =
-          "CORRECT! You are so smart😸";
+        document.querySelector("#message").innerHTML = "CORRECT! Good Job😸";
 
         document.querySelector("#next").style.display = "block"; // Show the "Next" button
         document.querySelector("#next").addEventListener("click", () => {
