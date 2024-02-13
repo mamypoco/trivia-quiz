@@ -1,0 +1,15 @@
+body {
+  margin: 0 5rem;
+  font: 1.2rem "Fira Sans", sans-serif;
+  background-color: rgb(226, 215, 215);
+}
+
+#next {
+  background-color: rgb(148, 209, 186);
+  font: 3rem;
+  border-radius: 50px;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+}
